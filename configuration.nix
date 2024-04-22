@@ -135,6 +135,7 @@
 	alacritty
 	qimgv
 	gnomeExtensions.dash-to-dock-animator
+	libsForQt5.breeze-icons
     ];
   };
 
