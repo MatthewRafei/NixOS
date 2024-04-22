@@ -141,6 +141,9 @@
 	qimgv
 	gnomeExtensions.dash-to-dock-animator
 	libsForQt5.breeze-icons
+	python3
+	python311Packages.netifaces
+	python310Packages.netifaces
 	# Hacking tools
 	nmap
 	responder
@@ -172,10 +175,10 @@
   # services.openssh.enable = true;
 
   # Open ports in the firewall.
-  #networking.firewall.allowedTCPPorts = [ 80, 5986  ];
-  #networking.firewall.allowedUDPPorts = [ 5986 ];
+  #networking.firewall.allowedTCPPorts = [ 80  ];
+  #networking.firewall.allowedUDPPorts = [ 5986; ];
   # Or disable the firewall altogether.
-  # networking.firewall.enable = false;
+  networking.firewall.enable = true;
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
