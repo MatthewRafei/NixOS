@@ -24,6 +24,11 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
+  networking.extraHosts = 
+  ''
+  10.129.230.101	unika.htb
+  '';
+
   # Set your time zone.
   time.timeZone = "America/Chicago";
 
@@ -136,6 +141,9 @@
 	qimgv
 	gnomeExtensions.dash-to-dock-animator
 	libsForQt5.breeze-icons
+	# Hacking tools
+	nmap
+	responder
     ];
   };
 
@@ -147,6 +155,7 @@
   environment.systemPackages = with pkgs; [
 	vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
 	wget
+	killall
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -163,8 +172,8 @@
   # services.openssh.enable = true;
 
   # Open ports in the firewall.
-  # networking.firewall.allowedTCPPorts = [ ... ];
-  # networking.firewall.allowedUDPPorts = [ ... ];
+  #networking.firewall.allowedTCPPorts = [ 80, 5986  ];
+  #networking.firewall.allowedUDPPorts = [ 5986 ];
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
 
