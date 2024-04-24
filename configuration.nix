@@ -139,8 +139,8 @@
 	imagemagick
 	alacritty
 	qimgv
-	gnomeExtensions.dash-to-dock-animator
 	libsForQt5.breeze-icons
+	gnomeExtensions.dash2dock-lite
 	python3
 	python311Packages.netifaces
 	python310Packages.netifaces
