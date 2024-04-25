@@ -141,6 +141,14 @@
 	qimgv
 	libsForQt5.breeze-icons
 	gparted
+	syncthing
+	# ISO writers
+	isoimagewriter
+	popsicle
+	# VPNs
+	wireguard-tools
+	openvpn
+	openvpn3
 	# Gnome extensions
 	gnomeExtensions.dash2dock-lite
 	gnomeExtensions.pop-shell
