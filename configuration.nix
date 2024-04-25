@@ -140,7 +140,13 @@
 	alacritty
 	qimgv
 	libsForQt5.breeze-icons
+	gparted
+	# Gnome extensions
 	gnomeExtensions.dash2dock-lite
+	gnomeExtensions.pop-shell
+	#gnomeExtensions.blur-my-light-shell
+	gnomeExtensions.blur-my-shell
+	# Python
 	python3
 	python311Packages.netifaces
 	python310Packages.netifaces
