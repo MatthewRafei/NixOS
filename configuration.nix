@@ -26,7 +26,6 @@
 
   networking.extraHosts = 
   ''
-  10.129.230.101	unika.htb
   '';
 
   # Set your time zone.
@@ -60,7 +59,6 @@
   services.gnome.core-utilities.enable = false;
 	
 
-  #services.xserver.desktopManager.gnome.extraGSettingsOverrides
   
   # Remove useless gnome bloat
   environment.gnome.excludePackages = (with pkgs; [
@@ -142,6 +140,7 @@
 	libsForQt5.breeze-icons
 	gparted
 	syncthing
+	neofetch
 	# ISO writers
 	isoimagewriter
 	popsicle
@@ -193,9 +192,8 @@
   #networking.firewall.allowedUDPPorts = [ 5986; ];
   # Or disable the firewall altogether.
   networking.firewall.enable = true;
-  
-
-
+ 
+  # Auto update the system? 
   system.autoUpgrade.enable = true;
 
   # This value determines the NixOS release from which the default
