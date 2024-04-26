@@ -134,6 +134,7 @@
 	htop
 	joplin-desktop
 	spotify
+	obs-studio
 	imagemagick
 	alacritty
 	qimgv
